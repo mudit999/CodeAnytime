@@ -1,7 +1,7 @@
 leaveprogram=0
 while leaveprogram != "q":
     import random
-    leaveprogram=raw_input("Press any key to roll the Dice or enter q to exist \n")
+    leaveprogram=raw_input("Press any key to roll the Dice or Enter q to exist \n")
     if leaveprogram == "q":
         break
     randnum=random.randint(1,6)
